@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.text-shadow {
+    box-shadow:
+        rgba(0, 0, 0, 0.2) 0px -6px 0px inset,
+        rgba(196, 30, 202, 0.15) 0px -8px 20px inset;
+}
+.blue-shadow {
+    box-shadow:
+        rgba(0, 0, 0, 0.2) 0px -6px 0px inset,
+        rgba(14, 147, 236, 0.15) 0px -8px 20px inset;
+}
+.inner-shadow{
+    box-shadow:
+        rgba(0, 0, 0, 0.2) 0px -5px 0px inset,
+        rgba(192, 192, 192, 0.15) 0px -2px 10px inset;
+}
